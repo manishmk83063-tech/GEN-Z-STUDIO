@@ -1,29 +1,392 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Services | GEN Z STUDIO</title><meta name="description" content="Professional web development, Excel and data analysis, Power BI, graphic design, video editing, social media, SQL, Python and Google & Meta Ads services."><link rel="stylesheet" href="style.css"><meta name="robots" content="index, follow"><link rel="canonical" href="https://gen-z-studio.onrender.com/services.html"><meta property="og:title" content="Services | GEN Z STUDIO"><meta property="og:description" content="Professional web development, Excel and data analysis, Power BI, graphic design, video editing, social media, SQL, Python and Google & Meta Ads services."><meta property="og:type" content="website"><meta property="og:url" content="https://gen-z-studio.onrender.com/services.html"></head><body>
-<header class="navbar"><a class="logo" href="index.html"><img src="assets/logo.svg" alt="GEN Z STUDIO logo"><span>GEN Z<span>STUDIO</span></span></a><button class="menu">☰</button><nav><a href="index.html">Home</a><a class="active" href="services.html">Services</a><a href="courses.html">Courses</a><a href="reviews.html">Reviews</a><a href="about.html">About Me</a></nav></header>
-<section class="section"><div class="section-head"><p class="eyebrow">PROFESSIONAL SERVICES</p><h2>Work that helps your <span>brand grow.</span></h2><p>Freelancing services for businesses, creators, students and professionals.</p></div><div class="grid">
-<div class="card"><i>💻</i><h3>Web Development</h3><p>Modern business websites, landing pages, portfolios and responsive web experiences.</p><br><button class="whatsapp-btn" onclick="requestService('Web Development')">Send Enquiry →</button></div>
-<div class="card"><i>📊</i><h3>Excel & Data Analysis</h3><p>Excel reports, data cleaning, dashboards, analysis and professional business reporting.</p><br><button class="whatsapp-btn" onclick="requestService('Excel & Data Analysis')">Send Enquiry →</button></div>
-<div class="card"><i>📈</i><h3>Power BI</h3><p>Interactive dashboards, KPI reports and data visualization for practical business needs.</p><br><button class="whatsapp-btn" onclick="requestService('Power BI')">Send Enquiry →</button></div>
-<div class="card"><i>🎨</i><h3>Graphic Design</h3><p>Logos, posters, thumbnails, banners, social media creatives and brand visuals.</p><br><button class="whatsapp-btn" onclick="requestService('Graphic Design')">Send Enquiry →</button></div>
-<div class="card"><i>🎬</i><h3>Video Editing</h3><p>Short-form videos, reels, YouTube edits, promotional videos and engaging social content.</p><br><button class="whatsapp-btn" onclick="requestService('Video Editing')">Send Enquiry →</button></div>
-<div class="card"><i>📱</i><h3>Social Media</h3><p>Social media creatives, content support, profile optimization and growth-focused work.</p><br><button class="whatsapp-btn" onclick="requestService('Social Media')">Send Enquiry →</button></div>
-<div class="card"><i>📣</i><h3>Google & Meta Ads</h3><p>Campaign setup, ad creatives and performance-focused digital advertising support.</p><br><button class="whatsapp-btn" onclick="requestService('Google & Meta Ads')">Send Enquiry →</button></div>
-<div class="card"><i>🧠</i><h3>SQL & Python</h3><p>SQL data work, Python data analysis and practical automation/project assistance.</p><br><button class="whatsapp-btn" onclick="requestService('SQL & Python')">Send Enquiry →</button></div>
-</div></section><footer><div class="logo"><img src="assets/logo.svg" alt="GEN Z STUDIO logo"><span>GEN Z<span>STUDIO</span></span></div><p>Learn • Create • Grow</p><div class="socials footer-socials"><a href="https://youtube.com/@gen_z_coder_404" target="_blank" rel="noopener noreferrer">▶ YouTube</a><a href="https://www.instagram.com/code___with___manish" target="_blank" rel="noopener noreferrer">◎ Instagram</a><a href="https://t.me/CodeWithManish_39" target="_blank" rel="noopener noreferrer">✈ Telegram</a><a href="https://www.linkedin.com/in/code-with-manish-580a09380" target="_blank" rel="noopener noreferrer">in LinkedIn</a><a href="https://www.facebook.com/share/19f8B6jw2a/" target="_blank" rel="noopener noreferrer">f Facebook</a><a href="https://wa.me/918306308351" target="_blank" rel="noopener noreferrer">✆ WhatsApp</a></div><small>© 2026 GEN Z STUDIO. All rights reserved.</small></footer><div id="enquiryModal" class="enquiry-modal hidden" role="dialog" aria-modal="true" aria-labelledby="enquiryTitle">
-  <div class="enquiry-card">
-    <button id="enquiryClose" class="enquiry-close" type="button" aria-label="Close">×</button>
-    <p class="eyebrow">QUICK ENQUIRY</p>
-    <h2 id="enquiryTitle">Tell us what you need.</h2>
-    <p class="enquiry-note">Fill in your details. Your enquiry will open in WhatsApp with all the information already filled in.</p>
-    <form id="enquiryForm" class="enquiry-form">
-      <input id="enquiryType" type="hidden" value="General Enquiry">
-      <label>Name<input id="enquiryName" required type="text" placeholder="Your name"></label>
-      <label>Mobile Number<input id="enquiryPhone" required type="tel" placeholder="Your mobile number"></label>
-      <label>Email<input id="enquiryEmail" type="email" placeholder="Your email (optional)"></label>
-      <label>Course / Service<input id="enquiryItem" type="text" placeholder="What are you interested in?"></label>
-      <label>Message<textarea id="enquiryMessage" placeholder="Tell me about your requirement..."></textarea></label>
-      <button class="btn primary" type="submit">Send Enquiry →</button>
-    </form>
-  </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+<title>Digital Services | Web Development, Excel, Data Analysis & Ads | GEN Z STUDIO</title>
+
+<meta name="description" content="GEN Z STUDIO provides professional digital services including web development, Excel and data analysis, Power BI, graphic design, video editing, social media, SQL, Python and Google & Meta Ads.">
+
+<meta name="keywords" content="GEN Z STUDIO services, web development, website design, Excel data analysis, Power BI, graphic design, video editing, social media marketing, SQL, Python, Google Ads, Meta Ads, digital services, business website, Sambhar">
+
+<meta name="robots" content="index, follow">
+
+<link rel="canonical" href="https://manishmk83063-tech.github.io/GEN-Z-STUDIO/services.html">
+
+<link rel="stylesheet" href="style.css">
+
+<meta property="og:title" content="Services | GEN Z STUDIO">
+
+<meta property="og:description" content="Professional web development, Excel and data analysis, Power BI, graphic design, video editing, social media, SQL, Python and Google & Meta Ads services.">
+
+<meta property="og:type" content="website">
+
+<meta property="og:url" content="https://manishmk83063-tech.github.io/GEN-Z-STUDIO/services.html">
+
+</head>
+
+<body>
+
+<header class="navbar">
+
+<a class="logo" href="index.html">
+<img src="assets/logo.svg" alt="GEN Z STUDIO logo">
+<span>GEN Z<span>STUDIO</span></span>
+</a>
+
+<button class="menu">☰</button>
+
+<nav>
+<a href="index.html">Home</a>
+<a class="active" href="services.html">Services</a>
+<a href="courses.html">Courses</a>
+<a href="reviews.html">Reviews</a>
+<a href="about.html">About Me</a>
+</nav>
+
+</header>
+
+
+<section class="section">
+
+<div class="section-head">
+
+<p class="eyebrow">PROFESSIONAL SERVICES</p>
+
+<h2>Work that helps your <span>brand grow.</span></h2>
+
+<p>
+Freelancing services for businesses, creators, students and professionals.
+</p>
+
 </div>
-<script src="app.js"></script></body></html>
+
+
+<div class="grid">
+
+
+<div class="card">
+
+<i>💻</i>
+
+<h3>Web Development</h3>
+
+<p>
+Modern business websites, landing pages, portfolios and responsive web experiences.
+</p>
+
+<br>
+
+<button class="whatsapp-btn"
+onclick="requestService('Web Development')">
+Send Enquiry →
+</button>
+
+</div>
+
+
+<div class="card">
+
+<i>📊</i>
+
+<h3>Excel & Data Analysis</h3>
+
+<p>
+Excel reports, data cleaning, dashboards, analysis and professional business reporting.
+</p>
+
+<br>
+
+<button class="whatsapp-btn"
+onclick="requestService('Excel & Data Analysis')">
+Send Enquiry →
+</button>
+
+</div>
+
+
+<div class="card">
+
+<i>📈</i>
+
+<h3>Power BI</h3>
+
+<p>
+Interactive dashboards, KPI reports and data visualization for practical business needs.
+</p>
+
+<br>
+
+<button class="whatsapp-btn"
+onclick="requestService('Power BI')">
+Send Enquiry →
+</button>
+
+</div>
+
+
+<div class="card">
+
+<i>🎨</i>
+
+<h3>Graphic Design</h3>
+
+<p>
+Logos, posters, thumbnails, banners, social media creatives and brand visuals.
+</p>
+
+<br>
+
+<button class="whatsapp-btn"
+onclick="requestService('Graphic Design')">
+Send Enquiry →
+</button>
+
+</div>
+
+
+<div class="card">
+
+<i>🎬</i>
+
+<h3>Video Editing</h3>
+
+<p>
+Short-form videos, reels, YouTube edits, promotional videos and engaging social content.
+</p>
+
+<br>
+
+<button class="whatsapp-btn"
+onclick="requestService('Video Editing')">
+Send Enquiry →
+</button>
+
+</div>
+
+
+<div class="card">
+
+<i>📱</i>
+
+<h3>Social Media</h3>
+
+<p>
+Social media creatives, content support, profile optimization and growth-focused work.
+</p>
+
+<br>
+
+<button class="whatsapp-btn"
+onclick="requestService('Social Media')">
+Send Enquiry →
+</button>
+
+</div>
+
+
+<div class="card">
+
+<i>📣</i>
+
+<h3>Google & Meta Ads</h3>
+
+<p>
+Campaign setup, ad creatives and performance-focused digital advertising support.
+</p>
+
+<br>
+
+<button class="whatsapp-btn"
+onclick="requestService('Google & Meta Ads')">
+Send Enquiry →
+</button>
+
+</div>
+
+
+<div class="card">
+
+<i>🧠</i>
+
+<h3>SQL & Python</h3>
+
+<p>
+SQL data work, Python data analysis and practical automation/project assistance.
+</p>
+
+<br>
+
+<button class="whatsapp-btn"
+onclick="requestService('SQL & Python')">
+Send Enquiry →
+</button>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+<footer>
+
+<div class="logo">
+
+<img src="assets/logo.svg" alt="GEN Z STUDIO logo">
+
+<span>GEN Z<span>STUDIO</span></span>
+
+</div>
+
+<p>Learn • Create • Grow</p>
+
+
+<div class="socials footer-socials">
+
+<a href="https://youtube.com/@gen_z_coder_404"
+target="_blank"
+rel="noopener noreferrer">
+▶ YouTube
+</a>
+
+<a href="https://www.instagram.com/code___with___manish"
+target="_blank"
+rel="noopener noreferrer">
+◎ Instagram
+</a>
+
+<a href="https://t.me/CodeWithManish_39"
+target="_blank"
+rel="noopener noreferrer">
+✈ Telegram
+</a>
+
+<a href="https://www.linkedin.com/in/code-with-manish-580a09380"
+target="_blank"
+rel="noopener noreferrer">
+in LinkedIn
+</a>
+
+<a href="https://www.facebook.com/share/19f8B6jw2a/"
+target="_blank"
+rel="noopener noreferrer">
+f Facebook
+</a>
+
+<a href="https://wa.me/918306308351"
+target="_blank"
+rel="noopener noreferrer">
+✆ WhatsApp
+</a>
+
+</div>
+
+<small>
+© 2026 GEN Z STUDIO. All rights reserved.
+</small>
+
+</footer>
+
+
+<div id="enquiryModal"
+class="enquiry-modal hidden"
+role="dialog"
+aria-modal="true"
+aria-labelledby="enquiryTitle">
+
+<div class="enquiry-card">
+
+<button
+id="enquiryClose"
+class="enquiry-close"
+type="button"
+aria-label="Close">
+×
+</button>
+
+<p class="eyebrow">QUICK ENQUIRY</p>
+
+<h2 id="enquiryTitle">
+Tell us what you need.
+</h2>
+
+<p class="enquiry-note">
+Fill in your details. Your enquiry will open in WhatsApp
+with all the information already filled in.
+</p>
+
+
+<form id="enquiryForm" class="enquiry-form">
+
+<input
+id="enquiryType"
+type="hidden"
+value="General Enquiry"
+>
+
+
+<label>
+Name
+<input
+id="enquiryName"
+required
+type="text"
+placeholder="Your name">
+</label>
+
+
+<label>
+Mobile Number
+<input
+id="enquiryPhone"
+required
+type="tel"
+placeholder="Your mobile number">
+</label>
+
+
+<label>
+Email
+<input
+id="enquiryEmail"
+type="email"
+placeholder="Your email (optional)">
+</label>
+
+
+<label>
+Course / Service
+<input
+id="enquiryItem"
+type="text"
+placeholder="What are you interested in?">
+</label>
+
+
+<label>
+Message
+<textarea
+id="enquiryMessage"
+placeholder="Tell me about your requirement..."></textarea>
+</label>
+
+
+<button class="btn primary" type="submit">
+Send Enquiry →
+</button>
+
+</form>
+
+</div>
+
+</div>
+
+
+<script src="app.js"></script>
+
+</body>
+</html>
