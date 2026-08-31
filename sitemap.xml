@@ -1,8 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://gen-z-studio.onrender.com/</loc></url>
-  <url><loc>https://gen-z-studio.onrender.com/services.html</loc></url>
-  <url><loc>https://gen-z-studio.onrender.com/courses.html</loc></url>
-  <url><loc>https://gen-z-studio.onrender.com/reviews.html</loc></url>
-  <url><loc>https://gen-z-studio.onrender.com/about.html</loc></url>
+
+  <url>
+    <loc>https://manishmk83063-tech.github.io/GEN-Z-STUDIO_new/</loc>
+  </url>
+
+  <url>
+    <loc>https://manishmk83063-tech.github.io/GEN-Z-STUDIO_new/about.html</loc>
+  </url>
+
+  <url>
+    <loc>https://manishmk83063-tech.github.io/GEN-Z-STUDIO_new/courses.html</loc>
+  </url>
+
+  <url>
+    <loc>https://manishmk83063-tech.github.io/GEN-Z-STUDIO_new/services.html</loc>
+  </url>
+
+  <url>
+    <loc>https://manishmk83063-tech.github.io/GEN-Z-STUDIO_new/reviews.html</loc>
+  </url>
+
 </urlset>
