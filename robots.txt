@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://gen-z-studio.onrender.com/sitemap.xml
+Sitemap: https://manishmk83063-tech.github.io/GEN-Z-STUDIO/sitemap.xml
